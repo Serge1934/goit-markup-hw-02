@@ -13,7 +13,9 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo span { color: #2e2f42; }
+.logo span {
+  color: #2e2f42;
+}
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -24,8 +26,12 @@ body {
   text-decoration: none;
 }
 .menu-link:hover,
-.menu-link:focus { color: #404bbf; }
-.contacts { font-style: normal; }
+.menu-link:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -35,8 +41,14 @@ body {
   text-decoration: none;
 }
 .contacts-link:hover,
-.contacts-link:focus { color: #404bbf; }
-.nav ul, .menu, .contacts ul { list-style: none; }
+.contacts-link:focus {
+  color: #404bbf;
+}
+.nav ul,
+.menu,
+.contacts ul {
+  list-style: none;
+}
 .hero {
   background-color: #2e2f42;
   text-align: center;
@@ -56,6 +68,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -149,7 +162,7 @@ body {
   background: #ffffff;
 }
 #portfolio .portfolio-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
