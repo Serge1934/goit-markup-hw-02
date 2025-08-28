@@ -13,27 +13,7 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.logo span {
-  color: #2e2f42;
-}
-.nav ul,
-.menu,
-.contacts ul {
-  list-style: none;
-  margin: 0;
-  font-size: 0;
-}
-.nav li,
-.menu li,
-.contacts li {
-  font-size: 16px;
-  margin-right: 40px;
-  vertical-align: middle;
-}
-.menu li:last-child,
-.contacts li:last-child {
-  margin-right: 0;
-}
+.logo span { color: #2e2f42; }
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -44,13 +24,9 @@ body {
   text-decoration: none;
 }
 .menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
-.contacts {
-  font-style: normal;
-}
-.contacts a {
+.menu-link:focus { color: #404bbf; }
+.contacts { font-style: normal; }
+.contacts-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -58,14 +34,12 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.contacts a:hover,
-.contacts a:focus {
-  color: #404bbf;
-}
+.contacts-link:hover,
+.contacts-link:focus { color: #404bbf; }
+.nav ul, .menu, .contacts ul { list-style: none; }
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -73,11 +47,8 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
-  margin: 0 auto 48px;
 }
 .hero-btn {
-  display: inline-block;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -85,10 +56,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -106,16 +73,12 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 .adv-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 .adv-item {
-  margin: 0 12px 24px;
   font-size: 16px;
 }
 .adv-heading {
@@ -125,7 +88,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 .adv-text {
   font-family: "Roboto", sans-serif;
@@ -133,7 +95,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
 }
 .team {
   background-color: #f4f4fd;
@@ -147,17 +108,13 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 .team-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 .team-card {
   background: #ffffff;
-  overflow: hidden;
 }
 .team-name {
   font-family: "Roboto", sans-serif;
@@ -166,7 +123,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 32px 0 8px;
   text-align: center;
 }
 .team-role {
@@ -175,39 +131,22 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0 0 32px;
   text-align: center;
 }
-#portfolio {
-  margin: 0 auto;
-}
 #portfolio .section-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 72px;
 }
 #portfolio .portfolio-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 #portfolio .portfolio-item {
   background: #ffffff;
-  border: 1px solid #e7e9fc;
-  overflow: hidden;
-  margin-bottom: 24px;
-}
-#portfolio .portfolio-item img {
-  display: block;
-  width: 360px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
 }
 #portfolio .portfolio-title {
   font-weight: 700;
@@ -215,7 +154,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 32px 16px 8px;
   text-align: left;
 }
 #portfolio .portfolio-text {
@@ -223,15 +161,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0 16px 32px;
 }
 .footer {
-  background-color: #2e2f42; 
-  color: #f4f4fd;   
+  background-color: #2e2f42;
+  color: #f4f4fd;
   text-align: center;
 }
 .footer-logo {
-  color: #4d5ae5; 
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
